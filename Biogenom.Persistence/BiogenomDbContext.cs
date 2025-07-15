@@ -16,13 +16,11 @@ public class BiogenomDbContext : DbContext, IBiogenomDbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // User -> Assessments (1 ко многим)
         modelBuilder.Entity<User>()
             .HasMany(u => u.Assessments)
             .WithOne(a => a.User)
             .HasForeignKey(a => a.UserId);
-
-        // Assessment -> Nutrients (1 ко многим)
+        
         modelBuilder.Entity<NutritionAssessment>()
             .HasMany(a => a.Nutrients)
             .WithOne(n => n.Assessment)
@@ -32,8 +30,7 @@ public class BiogenomDbContext : DbContext, IBiogenomDbContext
             .HasMany(s => s.Benefits)
             .WithOne(b => b.Supplement)
             .HasForeignKey(b => b.SupplementId);
-
-        // Assessment -> Supplements (1 ко многим)
+        
         modelBuilder.Entity<NutritionAssessment>()
             .HasMany(a => a.Supplements)
             .WithOne(s => s.Assessment)

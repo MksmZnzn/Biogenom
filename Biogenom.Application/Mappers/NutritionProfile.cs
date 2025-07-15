@@ -17,6 +17,6 @@ public class NutritionProfile : Profile
                     .SelectMany(s => s.Benefits)
                     .Select(b => b.Text)
                     .Distinct()
-                    .ToList() ?? new List<string>())); // Добавляем fallback
+                    .ToList() ?? new List<string>()));
     }
 }

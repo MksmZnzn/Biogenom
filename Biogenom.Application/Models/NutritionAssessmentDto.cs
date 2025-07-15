@@ -8,6 +8,5 @@ public class NutritionAssessmentDto
     public List<NutrientDto> Nutrients { get; set; } = new();
     public List<SupplementDto> Supplements { get; set; } = new();
     
-    // Вычисляемое поле (пример)
     public bool HasDeficiency => Status == "Дефицит";
 }
