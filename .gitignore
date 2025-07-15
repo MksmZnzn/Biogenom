@@ -1,0 +1,33 @@
+# .gitignore для .NET + Rider
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Сборка
+bin/
+obj/
+
+# Логи
+*.log
+
+# Пользовательские настройки
+*.user
+*.suo
+*.vs/
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# Локальные секреты и настройки
+appsettings.Development.json
+appsettings.json
+secrets.json

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D1B5C982-61BE-44F7-999E-D43590E83B23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F8AE41E8-E58A-4A46-A058-6D6156634497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4F87888F-773B-4F6C-B70A-EE99A2215D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Domain", "Biogenom.Domain\Biogenom.Domain.csproj", "{667BAE89-DEA7-4ACE-B647-35320C290FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Application", "Biogenom.Application\Biogenom.Application.csproj", "{C20171B0-43DA-4CA8-A32E-F213A8B9509E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Persistence", "Biogenom.Persistence\Biogenom.Persistence.csproj", "{4BB41977-6006-4D6A-A1B9-295515A10006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.WebApi", "Biogenom.WebApi\Biogenom.WebApi.csproj", "{404F9331-F0F5-4E09-80D6-F68F41D7EC12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E6E369B8-7360-4A12-AC3C-3588FEC83A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Test", "Biogenom.Test\Biogenom.Test.csproj", "{9D8735A7-255E-4831-9B2B-798A83169624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{667BAE89-DEA7-4ACE-B647-35320C290FDE} = {D1B5C982-61BE-44F7-999E-D43590E83B23}
+		{C20171B0-43DA-4CA8-A32E-F213A8B9509E} = {D1B5C982-61BE-44F7-999E-D43590E83B23}
+		{4BB41977-6006-4D6A-A1B9-295515A10006} = {4F87888F-773B-4F6C-B70A-EE99A2215D74}
+		{404F9331-F0F5-4E09-80D6-F68F41D7EC12} = {F8AE41E8-E58A-4A46-A058-6D6156634497}
+		{9D8735A7-255E-4831-9B2B-798A83169624} = {E6E369B8-7360-4A12-AC3C-3588FEC83A1B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{667BAE89-DEA7-4ACE-B647-35320C290FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667BAE89-DEA7-4ACE-B647-35320C290FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667BAE89-DEA7-4ACE-B647-35320C290FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667BAE89-DEA7-4ACE-B647-35320C290FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20171B0-43DA-4CA8-A32E-F213A8B9509E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20171B0-43DA-4CA8-A32E-F213A8B9509E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20171B0-43DA-4CA8-A32E-F213A8B9509E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20171B0-43DA-4CA8-A32E-F213A8B9509E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB41977-6006-4D6A-A1B9-295515A10006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB41977-6006-4D6A-A1B9-295515A10006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB41977-6006-4D6A-A1B9-295515A10006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB41977-6006-4D6A-A1B9-295515A10006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404F9331-F0F5-4E09-80D6-F68F41D7EC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404F9331-F0F5-4E09-80D6-F68F41D7EC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404F9331-F0F5-4E09-80D6-F68F41D7EC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404F9331-F0F5-4E09-80D6-F68F41D7EC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8735A7-255E-4831-9B2B-798A83169624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8735A7-255E-4831-9B2B-798A83169624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8735A7-255E-4831-9B2B-798A83169624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8735A7-255E-4831-9B2B-798A83169624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

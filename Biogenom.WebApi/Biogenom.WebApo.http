@@ -1,0 +1,6 @@
+@Biogenom.WebApo_HostAddress = http://localhost:5104
+
+GET {{Biogenom.WebApo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
